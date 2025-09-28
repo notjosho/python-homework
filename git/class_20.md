@@ -67,6 +67,7 @@ These changes were made locally, so the branch is not in `github`, you can reset
 24. run `git log --oneline`, take a screenshot from the last commit until the `first git-reset commit`
 25. now we will reset the latest commit, grab the hash from the `backend 1 and 2 no bugs` message, run `git reset <hash>`
 26. now run `git status` and take a screenshot, in this commit you will see that you are one commit behind, check github, and you will see the commit on your branch has the **bocchi the rock** character as well
+26.5 pull from github to get the latest changes
 27. grab the latest hash, and run `git revert <latest-hash>`, this will make another commit at the end of the commit history
 28. run `git log --oneline`, take a screenshot from the last commit until the `first git-reset commit`
 29. now do a `git push`
