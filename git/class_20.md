@@ -79,16 +79,17 @@ These changes were made locally, so the branch is not in `github`, you can reset
 
 ## git stash
 *git stash temporarily saves uncommitted changes so you can switch branches or pull updates*
-34. now grab the hash from the `fourth commit` message
-35. run `git reset --soft <hash>`
-36. run `git stash`, this will save your changes in a local stash stack
-37. run `git status`, take a screenshot (should show clean working directory)
-38. create a new branch called `fix-bug-1` with `git checkout -b fix-bug-1`
-39. add the line `bug fixed` to `practice.md` and commit with message `bug fix applied`
-40. run `git log --oneline`, take a screenshot from the last commit until the `first git-reset commit`
-41. switch back to your git-reset branch with `git checkout git-reset-[yourname]`
-42. run `git stash pop` to restore your stashed changes
-43. run `git status`, take a screenshot showing the restored changes
+34. add some new content to `practice.md` (add a line like "work in progress - temporary changes")
+35. run `git add .` to stage the changes
+36. add another line to `practice.md` (like "more temporary work") but DON'T stage it
+37. run `git stash`, this will save both staged and unstaged changes in a local stash stack
+38. run `git status`, take a screenshot (should show clean working directory)
+39. create a new branch called `fix-bug-1` with `git checkout -b fix-bug-1`
+40. add the line `bug fixed` to `practice.md` and commit with message `bug fix applied`
+41. run `git log --oneline`, take a screenshot from the last commit until the `first git-reset commit`
+42. switch back to your git-reset branch with `git checkout git-reset-[yourname]`
+43. run `git stash pop` to restore your stashed changes
+44. run `git status`, take a screenshot showing the restored changes
 
 Git stash allows you to temporarily save your uncommitted changes and restore them later, useful when switching branches or pulling updates.
 
