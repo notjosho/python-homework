@@ -5,7 +5,8 @@ This tutorial covers git reset, revert, and stash commands using hands-on exerci
 ## Initial Setup
 - Clone or pull the teaching-python repository
 - We'll be working with a text file to practice git commands
-- Create a file called `practice.md` in the root directory
+- old, incorrect: Create a file called `practice.md` in the root directory
+- new, correct: use the file inside class_20, called practice.md
 
 ## git reset
 *git reset moves the current branch pointer to a specified commit, allowing you to undo commits locally*
