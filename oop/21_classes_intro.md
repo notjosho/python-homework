@@ -19,3 +19,12 @@ class Cookie {
   color: string
 }
 ```
+
+para subir la tarea en el repo de `teaching-python` en la rama de `main`, hay una carpeta con su nickname, crear un archivo con el mismo nombre de este `.md` 
+```bash
+├── homeworks
+│   ├── chibi
+│   ├── gaku
+│   └── moik
+```
+
