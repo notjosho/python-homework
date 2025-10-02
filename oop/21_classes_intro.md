@@ -28,3 +28,9 @@ para subir la tarea en el repo de `teaching-python` en la rama de `main`, hay un
 │   └── moik
 ```
 
+crear un branch con el numero de clase y su nick, hacer un pr en el repo, comparando su rama con main
+```
+21-gaku
+21-chibi
+21-moik
+```
